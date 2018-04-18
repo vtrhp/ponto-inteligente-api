@@ -61,6 +61,12 @@
 			<artifactId>h2</artifactId>
 		</dependency>
 		
+		<dependency>
+		    <groupId>org.flywaydb</groupId>
+		    <artifactId>flyway-core</artifactId>
+		    <version>4.1.2</version>
+		</dependency>
+		
 	</dependencies>
 
 	<build>
@@ -72,6 +78,4 @@
 		</plugins>
 	</build>
 	
-
-
 </project>
