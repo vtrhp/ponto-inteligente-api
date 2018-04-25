@@ -1,5 +1,6 @@
 package com.kazale.pontointeligente.api.entities;
 
+
 import java.io.Serializable;
 import java.math.BigDecimal;
 import java.util.Date;
@@ -107,7 +108,7 @@ public class Funcionario implements Serializable {
 		this.valorHora = valorHora;
 	}
 	
-	@Column(name = "qtd_horas_trablaho_dia", nullable = true)
+	@Column(name = "qtd_horas_trabalho_dia", nullable = true)
 	public Float getQtdHorasTrabalhoDia() {
 		return qtdHorasTrabalhoDia;
 	}

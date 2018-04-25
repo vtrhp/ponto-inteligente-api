@@ -52,5 +52,17 @@ public class EmpresaServiceTest {
 		
 		assertNotNull(empresa);
 	}
+	
+	public static void roda() {
+		String x = "1234567890";
+		
+		x = x.substring(5,7);
+		
+		char y = x.charAt(1);
+		
+		x = x + y;
+		System.out.println("TESTE" + x);
+	}
+	
 
 }
