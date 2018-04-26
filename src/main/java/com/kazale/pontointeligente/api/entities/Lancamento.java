@@ -40,6 +40,7 @@ public class Lancamento {
 
 	@Id
 	@GeneratedValue(strategy=GenerationType.AUTO)
+	@Column(name = "ID")
 	public Long getId() {
 		return id;
 	}

@@ -50,6 +50,7 @@ public class Funcionario implements Serializable {
 	}
 	@Id
 	@GeneratedValue(strategy=GenerationType.AUTO)
+	@Column(name = "ID")
 	public Long getId() {
 		return id;
 	}
